@@ -1,4 +1,4 @@
-# CIDS 235 - Sprint 2025
+# CIDS 235 - Spring 2025
 
 Welcome to the **CIDS 235** repository! This resource is designed to complement our lectures, providing a continuously updated record of class notes, examples, and supplementary materials. In addition to lecture notes, this repository contains all the code written during the semester, giving you practical examples to reinforce the concepts discussed in class.
 
