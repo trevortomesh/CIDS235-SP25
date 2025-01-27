@@ -8,6 +8,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 
 ### **Introduction**
 - [Lecture 1: Course Introduction](textbook/ch0/lecture1.md)
+  - [Practice Questions](textbook/ch0/lecture1.md#practice-questions)
 
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
