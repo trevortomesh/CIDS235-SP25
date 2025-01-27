@@ -8,8 +8,14 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 
 ### **Introduction**
 - [Lecture 1: Course Introduction](textbook/ch0/lecture1.md)
+  - [Course Overview](textbook/ch0/lecture1.md#course-overview)
+  - [Syllabus Highlights](textbook/ch0/lecture1.md#syllabus-highlights)
+  - [Living Textbook](textbook/ch0/lecture1.md#living-textbook)
+  - [Use of AI and Large Language Models (LLMs)](textbook/ch0/lecture1.md#use-of-ai-and-large-language-models-llms)
+  - [AI-Assisted Grading Pilot](textbook/ch0/lecture1.md#ai-assisted-grading-pilot)
+  - [Software Requirements](textbook/ch0/lecture1.md#software-requirements)
   - [Practice Questions](textbook/ch0/lecture1.md#practice-questions)
-
+  
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
 
