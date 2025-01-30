@@ -15,7 +15,14 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
   - [AI-Assisted Grading Pilot](textbook/ch0/lecture1.md#ai-assisted-grading-pilot)
   - [Software Requirements](textbook/ch0/lecture1.md#software-requirements)
   - [Practice Questions](textbook/ch0/lecture1.md#practice-questions)
-  
+
+### **Lecture Notes**
+- [Lecture 2: Programming Paradigms](textbook/ch0/lecture2.md)
+  - [What is a Paradigm?](textbook/ch0/lecture2.md#what-is-a-paradigm)
+  - [What is Programming?](textbook/ch0/lecture2.md#what-is-programming)
+  - [Imperative vs. Declarative Programming](textbook/ch0/lecture2.md#imperative-vs-declarative-programming)
+  - [Practice Questions](textbook/ch0/lecture2.md#practice-questions)
+
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
 
@@ -44,4 +51,5 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 
 ---
 
-For questions or feedback about this repository, feel free to contact me during office hours or via email. 
+For questions or feedback about this repository, feel free to contact me during office hours or via email.
+
