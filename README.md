@@ -6,22 +6,12 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 
 ## **Table of Contents**
 
-### **Introduction**
+### Chapter 0 - Introduction
 - [Lecture 1: Course Introduction](textbook/ch0/lecture1.md)
-  - [Course Overview](textbook/ch0/lecture1.md#course-overview)
-  - [Syllabus Highlights](textbook/ch0/lecture1.md#syllabus-highlights)
-  - [Living Textbook](textbook/ch0/lecture1.md#living-textbook)
-  - [Use of AI and Large Language Models (LLMs)](textbook/ch0/lecture1.md#use-of-ai-and-large-language-models-llms)
-  - [AI-Assisted Grading Pilot](textbook/ch0/lecture1.md#ai-assisted-grading-pilot)
-  - [Software Requirements](textbook/ch0/lecture1.md#software-requirements)
-  - [Practice Questions](textbook/ch0/lecture1.md#practice-questions)
-
-### **Lecture Notes**
-- [Lecture 2: Programming Paradigms](textbook/ch0/lecture2.md)
-  - [What is a Paradigm?](textbook/ch0/lecture2.md#what-is-a-paradigm)
-  - [What is Programming?](textbook/ch0/lecture2.md#what-is-programming)
-  - [Imperative vs. Declarative Programming](textbook/ch0/lecture2.md#imperative-vs-declarative-programming)
-  - [Practice Questions](textbook/ch0/lecture2.md#practice-questions)
+ 
+### Chapter 1- Programming Paradigms
+- [Lecture 2: Programming Paradigms](textbook/ch1/lecture2.md)
+- [Lecture 3: Functional Programming](textbook/ch1/lecture3.md)
 
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
