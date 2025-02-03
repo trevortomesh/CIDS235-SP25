@@ -13,6 +13,9 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 2: Programming Paradigms](textbook/ch1/lecture2.md)
 - [Lecture 3: Functional Programming](textbook/ch1/lecture3.md)
 
+### Chapter 2 - Intro to OOP
+- [Lecture 4: What is OOP?](textbook/ch1/lecture4.md)
+
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
 
