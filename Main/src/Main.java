@@ -1,14 +1,23 @@
 public class Main {
     public static void main(String[] args) {
 
-        Circle roundy = new Circle();
+        Circle roundy = new Circle(2.0);
         Circle rolly = new Circle();
+        Cat zoe = new Cat("Zoe", 8, 'F',
+                "Gray", "DSH",6);
+
+        Cat fatKitty = new Cat("Glitch", 14,
+                'M',"Tuxedo", "DSH",13);
+        zoe.meow();
+        fatKitty.meow();
         System.out.println(roundy);
-        roundy.radius = 3;
+        //roundy.radius = 3;
         rolly.radius = 30;
         System.out.println(roundy.radius);
         System.out.println(rolly.radius);
-        System.out.println("Roundy has an area of " + roundy.getArea());
+        System.out.println("Roundy has an area of " + roundy.getArea() +
+                " and Roundy is " + (zoe.age - roundy.radius) + " units " +
+                " smaller than Zoe's age! ");
         System.out.println("Rolly has an area of " + rolly.getArea());
         System.out.println("Roundy has a perimeter of " + roundy.getPerimeter());
         System.out.println("Rolly has a perimeter of " + rolly.getPerimeter());

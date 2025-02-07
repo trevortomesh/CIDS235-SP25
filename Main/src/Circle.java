@@ -1,5 +1,13 @@
 public class Circle {
-    double radius = 1;
+    double radius;
+    Circle(){
+        radius = 1.0;
+    }
+
+    Circle(double newRadius){
+        radius = newRadius;
+    }
+
 
     double getArea(){
         return Math.PI * radius * radius;
