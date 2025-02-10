@@ -17,6 +17,9 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 4: What is OOP?](textbook/ch1/lecture4.md)
 - [Lecture 5: Classes](textbook/ch1/lecture5.md)
 - [Lecture 6: Classes and Objects](textbook/ch1/lecture6.md)
+
+## Appendix
+- [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/appendix/lecture7.md)
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
 
