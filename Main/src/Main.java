@@ -12,7 +12,7 @@ public class Main {
         fatKitty.meow();
         System.out.println(roundy);
         //roundy.radius = 3;
-        rolly.radius = 30;
+        rolly.setRadius(30);
         System.out.println(roundy.radius);
         System.out.println(rolly.radius);
         System.out.println("Roundy has an area of " + roundy.getArea() +

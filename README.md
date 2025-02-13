@@ -14,9 +14,10 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 3: Functional Programming](textbook/ch1/lecture3.md)
 
 ### Chapter 2 - Intro to OOP
-- [Lecture 4: What is OOP?](textbook/ch1/lecture4.md)
-- [Lecture 5: Classes](textbook/ch1/lecture5.md)
-- [Lecture 6: Classes and Objects](textbook/ch1/lecture6.md)
+- [Lecture 4: What is OOP?](textbook/ch2/lecture4.md)
+- [Lecture 5: Classes](textbook/ch2/lecture5.md)
+- [Lecture 6: Classes and Objects](textbook/ch2/lecture6.md)
+- [Lecture 7: UML, Getters and Setters](textbook/ch2/lecture7.md)
 
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/appendix/lecture7.md)
