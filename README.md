@@ -17,7 +17,8 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 4: What is OOP?](textbook/ch2/lecture4.md)
 - [Lecture 5: Classes](textbook/ch2/lecture5.md)
 - [Lecture 6: Classes and Objects](textbook/ch2/lecture6.md)
-- [Lecture 7: UML, Getters and Setters](textbook/ch2/lecture7.md)
+- [Lecture 8: UML, Getters and Setters](textbook/ch2/lecture8)
+- [Lecture 9: Reference variables and the dot operator](textbook/ch2/lecture9.md)
 
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/appendix/lecture7.md)

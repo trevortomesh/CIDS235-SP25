@@ -1,6 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
+        int a = 5;
+        int[] myArray = {1,2,3,4,5};
+        System.out.println(myArray);
+        System.out.println(a);
+        Circle myCircle;
+        myCircle = new Circle();
+        System.out.println(myCircle);
+        System.out.println(myCircle.getArea());
         Circle roundy = new Circle(2.0);
         Circle rolly = new Circle();
         Cat zoe = new Cat("Zoe", 8, 'F',
@@ -11,6 +19,7 @@ public class Main {
         zoe.meow();
         fatKitty.meow();
         System.out.println(roundy);
+        System.out.println(rolly);
         //roundy.radius = 3;
         rolly.setRadius(30);
         System.out.println(roundy.radius);
