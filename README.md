@@ -19,7 +19,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 6: Classes and Objects](textbook/ch2/lecture6.md)
 - [Lecture 8: UML, Getters and Setters](textbook/ch2/lecture8)
 - [Lecture 9: Reference variables and the dot operator](textbook/ch2/lecture9.md)
-
+- [Lecture 10: Reference Variables and Memory Management](textbook/ch2/lecture10.md)
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/appendix/lecture7.md)
 ### **Upcoming Chapters**
