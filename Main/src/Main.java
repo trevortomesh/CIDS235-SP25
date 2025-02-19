@@ -2,12 +2,24 @@ public class Main {
     public static void main(String[] args) {
 
 
+        System.out.println(Circle.getNumberOfObjects());
+        //System.out.println(Circle.getArea());
+
         Circle circle1 = new Circle();
+        System.out.println(circle1.getNumberOfObjects());
         Circle circle2 = new Circle(5);
+        System.out.println(circle2.getNumberOfObjects());
+        circle2.numberOfObjects = 0;
+        System.out.println(Circle.getNumberOfObjects());
+
         circle2.setRadius(3);
         System.out.println(circle1.radius);
-//        int a = 5;
-//        int[] myArray = {1,2,3,4,5};
+        System.out.println("------------");
+        circle1.printStuff();
+        System.out.println("------------");
+
+        //        int a = 5;
+        //        int[] myArray = {1,2,3,4,5};
 //        System.out.println(myArray);
 //        System.out.println(a);
 //        Circle myCircle;
