@@ -1,38 +1,102 @@
-public class Circle {
-    static int numberOfObjects = 0;
-    double radius;
+/**
+ * Circle.java
+ *
+ * @author Dr. Trevor Tomesh
+ * @version 1.0
+ * @since 2025-02-24
+ *
+ * This class represents a circle with a specified radius. It provides methods to calculate
+ * the area and perimeter of the circle, set and get the radius, and track the number of Circle
+ * objects created.
+ */
 
-    Circle(){
+public class Circle {
+    /**
+     * The number of Circle objects created.
+     */
+    private static int numberOfObjects = 0;
+
+    /**
+     * The radius of the Circle.
+     */
+    private double radius;
+
+    /**
+     * Default constructor that creates a Circle with a default radius of 1.0
+     * and increments the number of Circle objects.
+     */
+    Circle() {
         radius = 1.0;
         numberOfObjects++;
     }
 
-    Circle(double newRadius){
+    /**
+     * Constructor that creates a Circle with the specified radius
+     * and increments the number of Circle objects.
+     *
+     * @param newRadius the desired radius of the circle
+     */
+    Circle(double newRadius) {
         radius = newRadius;
         numberOfObjects++;
     }
 
-
-    double getArea(){
+    /**
+     * Calculates and returns the area of the circle.
+     *
+     * @return the area of the circle
+     */
+    double getArea() {
         return Math.PI * radius * radius;
     }
 
-    double getPerimeter(){
+    /**
+     * Calculates and returns the perimeter (circumference) of the circle.
+     *
+     * @return the perimeter of the circle
+     */
+    double getPerimeter() {
         return 2 * Math.PI * radius;
     }
 
-    void setRadius(double newRadius){
+    /**
+     * Sets the radius of the circle to the specified value.
+     *
+     * @param newRadius the new radius to set; should be a non-negative value
+     */
+    public void setRadius(double newRadius) {
         radius = newRadius;
     }
 
-    static int getNumberOfObjects(){
+    /**
+     * Returns the current radius of the circle.
+     *
+     * @return the radius of the circle
+     */
+    public double getRadius() {
+        return radius;
+    }
+
+    /**
+     * Returns the total number of Circle objects created.
+     *
+     * @return the number of Circle objects
+     */
+    public static int getNumberOfObjects() {
         return numberOfObjects;
     }
 
-    void printStuff(){
-        System.out.println(getNumberOfObjects()); // access a static method
-        System.out.println(getArea()); // access an instance method
-        System.out.println(radius); // access an instance variable
-        System.out.println(numberOfObjects); // access a static variable
-    }
+    /*
+     * The commented-out printStuff() method demonstrates how static and instance
+     * members can and cannot be accessed within static methods.
+     *
+     * Note: Accessing instance methods or variables from a static context will
+     * result in compilation errors.
+     */
+//    static void printStuff(){
+//        System.out.println(getNumberOfObjects()); // Valid: static method access
+//        System.out.println(getArea()); // Invalid: cannot access instance method from static context
+//        System.out.println(radius); // Invalid: cannot access instance variable from static context
+//        System.out.println(numberOfObjects); // Valid: static variable access
+//    }
 }

@@ -2,21 +2,27 @@ public class Main {
     public static void main(String[] args) {
 
 
+        Circle myCircle = new Circle(5.0);
+        myCircle.setRadius(5);
+        System.out.println("myCircle radius is now " + myCircle.getRadius());
         System.out.println(Circle.getNumberOfObjects());
-        //System.out.println(Circle.getArea());
-
-        Circle circle1 = new Circle();
-        System.out.println(circle1.getNumberOfObjects());
-        Circle circle2 = new Circle(5);
-        System.out.println(circle2.getNumberOfObjects());
-        circle2.numberOfObjects = 0;
-        System.out.println(Circle.getNumberOfObjects());
-
-        circle2.setRadius(3);
-        System.out.println(circle1.radius);
-        System.out.println("------------");
-        circle1.printStuff();
-        System.out.println("------------");
+        Circle.numberOfObjects = 10;
+        //myCircle.radius = 5;
+//        System.out.println(Circle.getNumberOfObjects());
+//        //System.out.println(Circle.getArea());
+//
+//        Circle circle1 = new Circle();
+//        System.out.println(circle1.getNumberOfObjects());
+//        Circle circle2 = new Circle(5);
+//        System.out.println(circle2.getNumberOfObjects());
+//        circle2.numberOfObjects = 0;
+//        System.out.println(Circle.getNumberOfObjects());
+//
+//        circle2.setRadius(3);
+//        System.out.println(circle1.radius);
+//        System.out.println("------------");
+//       // circle1.printStuff();
+//        System.out.println("------------");
 
         //        int a = 5;
         //        int[] myArray = {1,2,3,4,5};
