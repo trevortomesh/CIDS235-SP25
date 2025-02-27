@@ -25,7 +25,7 @@ public class Circle {
      * Default constructor that creates a Circle with a default radius of 1.0
      * and increments the number of Circle objects.
      */
-    Circle() {
+    public Circle() {
         radius = 1.0;
         numberOfObjects++;
     }
@@ -36,7 +36,7 @@ public class Circle {
      *
      * @param newRadius the desired radius of the circle
      */
-    Circle(double newRadius) {
+    public Circle(double newRadius) {
         radius = newRadius;
         numberOfObjects++;
     }
@@ -46,16 +46,19 @@ public class Circle {
      *
      * @return the area of the circle
      */
-    double getArea() {
+    public double getArea() {
         return Math.PI * radius * radius;
     }
 
+//    private double rsquared(){
+//        return radius * radius;
+//    }
     /**
      * Calculates and returns the perimeter (circumference) of the circle.
      *
      * @return the perimeter of the circle
      */
-    double getPerimeter() {
+    public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
 
@@ -65,7 +68,10 @@ public class Circle {
      * @param newRadius the new radius to set; should be a non-negative value
      */
     public void setRadius(double newRadius) {
-        radius = newRadius;
+        if(newRadius > 0) {
+            radius = newRadius;
+        }
+        else{radius = 1;}
     }
 
     /**

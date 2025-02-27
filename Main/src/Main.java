@@ -3,10 +3,13 @@ public class Main {
 
 
         Circle myCircle = new Circle(5.0);
+        printCircle(myCircle);
+        //myCircle.radius = 5;
         myCircle.setRadius(5);
         System.out.println("myCircle radius is now " + myCircle.getRadius());
         System.out.println(Circle.getNumberOfObjects());
-        Circle.numberOfObjects = 10;
+        System.out.println(myCircle.getArea());
+        //Circle.numberOfObjects = 10;
         //myCircle.radius = 5;
 //        System.out.println(Circle.getNumberOfObjects());
 //        //System.out.println(Circle.getArea());
@@ -25,8 +28,8 @@ public class Main {
 //        System.out.println("------------");
 
         //        int a = 5;
-        //        int[] myArray = {1,2,3,4,5};
-//        System.out.println(myArray);
+ //         int[] myArray = {1,2,3,4,5};
+ //         System.out.println(myArray);
 //        System.out.println(a);
 //        Circle myCircle;
 //        myCircle = new Circle();
@@ -143,6 +146,11 @@ public class Main {
 //        //giveMeds(cat1Name, cat1Age, cat1Weight);
 //        //makeSound(dog1Name);
 
+    }
+
+    public static void printCircle(Circle c){
+        System.out.println("The area of the circle of radius " +
+                c.getRadius() + " is " + c.getArea());
     }
 
     public static void giveMeds(String name, int age, double weight) {

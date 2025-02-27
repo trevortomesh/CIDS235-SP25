@@ -23,7 +23,8 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 11: Instance Variables vs. Static Variables (Class Variables)](textbook/ch2/lecture11.md)
 
 ### Chapter 3 - Encapsulation
--[Lecture 12: Introducing Encapsulation](/textbook/ch3/lecture12.md)
+- [Lecture 12: Introducing Encapsulation](textbook/ch3/lecture12.md)
+- [Lecture 13: Encapsulation and Passing Objects to Methods](textbook/ch3/lecture13.md)
 
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/appendix/lecture7.md)
