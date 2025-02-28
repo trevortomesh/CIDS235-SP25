@@ -36,8 +36,8 @@ public class Circle {
      *
      * @param newRadius the desired radius of the circle
      */
-    public Circle(double newRadius) {
-        radius = newRadius;
+    public Circle(double radius) {
+        this.radius = radius;
         numberOfObjects++;
     }
 

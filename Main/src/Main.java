@@ -2,13 +2,22 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Circle myCircle = new Circle(5.0);
-        printCircle(myCircle);
-        //myCircle.radius = 5;
-        myCircle.setRadius(5);
-        System.out.println("myCircle radius is now " + myCircle.getRadius());
-        System.out.println(Circle.getNumberOfObjects());
-        System.out.println(myCircle.getArea());
+//        Circle myCircle = new Circle(5.0);
+//        printCircle(myCircle);
+//        //myCircle.radius = 5;
+//        myCircle.setRadius(5);
+//        System.out.println("myCircle radius is now " + myCircle.getRadius());
+//        System.out.println(Circle.getNumberOfObjects());
+//        System.out.println(myCircle.getArea());
+
+        int a = 7;
+        addTwo(a);
+        System.out.println(a);
+
+        Circle c1 = new Circle(5.0);
+        printCircle(c1);
+        System.out.println("c1 radius is now " + c1.getRadius());
+
         //Circle.numberOfObjects = 10;
         //myCircle.radius = 5;
 //        System.out.println(Circle.getNumberOfObjects());
@@ -146,6 +155,12 @@ public class Main {
 //        //giveMeds(cat1Name, cat1Age, cat1Weight);
 //        //makeSound(dog1Name);
 
+    }
+
+    public static void addTwo(int x){
+        x = x + 2;
+        System.out.println(x);
+        //System.out.println(a);
     }
 
     public static void printCircle(Circle c){
