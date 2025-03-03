@@ -17,7 +17,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 4: What is OOP?](textbook/ch2/lecture4.md)
 - [Lecture 5: Classes](textbook/ch2/lecture5.md)
 - [Lecture 6: Classes and Objects](textbook/ch2/lecture6.md)
-- [Lecture 8: UML, Getters and Setters](textbook/ch2/lecture8)
+- [Lecture 8: UML, Getters and Setters](textbook/ch2/lecture8.md)
 - [Lecture 9: Reference variables and the dot operator](textbook/ch2/lecture9.md)
 - [Lecture 10: Reference Variables and Memory Management](textbook/ch2/lecture10.md)
 - [Lecture 11: Instance Variables vs. Static Variables (Class Variables)](textbook/ch2/lecture11.md)
@@ -27,9 +27,9 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 13: Encapsulation and Passing Objects to Methods](textbook/ch3/lecture13.md)
 - [Lecture 14: Encapsulation and Passing Objects to Methods (Continued)](textbook/ch3/lecture14.md)
 - [Lecture 15: Encapsulation, Passing Objects to Methods, and Variable Scope in Java](textbook/ch3/lecture15.md)
--[Lecture 16: Pass by Value vs. Pass by Reference, Scope, 'this' and overloading](textbook/ch3/lecture16.md)
+- [Lecture 16: Pass by Value vs. Pass by Reference, Scope, 'this' and overloading](textbook/ch3/lecture16.md)
 ## Appendix
-- [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/appendix/lecture7.md)
+- [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
 
