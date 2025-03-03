@@ -10,13 +10,16 @@ public class Main {
 //        System.out.println(Circle.getNumberOfObjects());
 //        System.out.println(myCircle.getArea());
 
-        int a = 7;
-        addTwo(a);
-        System.out.println(a);
+//        int a = 7;
+//        addTwo(a);
+//        System.out.println(y);
 
-        Circle c1 = new Circle(5.0);
-        printCircle(c1);
-        System.out.println("c1 radius is now " + c1.getRadius());
+//        Circle c1 = new Circle(5.0);
+//        Circle c2 = new Circle(1);
+//        Circle c3 = new Circle();
+        Circle c4 = new Circle();
+        //printCircle(c1);
+        //System.out.println("c1 radius is now " + c1.getRadius());
 
         //Circle.numberOfObjects = 10;
         //myCircle.radius = 5;
@@ -154,11 +157,23 @@ public class Main {
 //
 //        //giveMeds(cat1Name, cat1Age, cat1Weight);
 //        //makeSound(dog1Name);
+        addTwo();
+        addTwo(1,2);
+        addTwo(5);
 
     }
 
+    public static void addTwo(){
+        System.out.println("Must pass an argument!");
+    }
+
+    public static void addTwo(int x, int y){
+        System.out.println(x + y);
+    }
+
     public static void addTwo(int x){
-        x = x + 2;
+        int y = 2;
+        x = x + y;
         System.out.println(x);
         //System.out.println(a);
     }

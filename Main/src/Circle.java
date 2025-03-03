@@ -26,8 +26,7 @@ public class Circle {
      * and increments the number of Circle objects.
      */
     public Circle() {
-        radius = 1.0;
-        numberOfObjects++;
+        this(1.0);
     }
 
     /**
