@@ -1,8 +1,15 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        Loan loan = new Loan(5.0, 30, 100000);
+        System.out.println(loan.getMonthlyPayment());
+//        int i = (int) (Math.random() * 10);
+//        System.out.println("Random number " + i);
+//        Scanner input = new Scanner(System.in);
+//        input.nextInt();
 
-//        Circle myCircle = new Circle(5.0);
+       // Circle myCircle = new Circle(5.0);
 //        printCircle(myCircle);
 //        //myCircle.radius = 5;
 //        myCircle.setRadius(5);
