@@ -28,7 +28,8 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 14: Encapsulation and Passing Objects to Methods (Continued)](textbook/ch3/lecture14.md)
 - [Lecture 15: Encapsulation, Passing Objects to Methods, and Variable Scope in Java](textbook/ch3/lecture15.md)
 - [Lecture 16: Pass by Value vs. Pass by Reference, Scope, 'this' and overloading](textbook/ch3/lecture16.md)
-- [Lecture17: Class Abstraction and Encapsulation](textbook/ch3/lecture17.md)
+- [Lecture 17: Class Abstraction and Encapsulation](textbook/ch3/lecture17.md)
+- [Lecture 18: Class Abstraction and Encapsulation... and Strings!](textbook/ch3/lecture18.md)
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 ### **Upcoming Chapters**

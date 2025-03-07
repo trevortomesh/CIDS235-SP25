@@ -2,9 +2,24 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Loan loan = new Loan(5.0, 30, 100000);
-        System.out.println(loan.getMonthlyPayment());
-//        int i = (int) (Math.random() * 10);
+        String myString = new String("Hello World!");
+
+        String[] strArray = myString.split(" ");
+        System.out.println(strArray[1].charAt(0));
+
+
+        char[] charArray = {'G','o','o','d',' ','D','a','y','!'};
+        String message = new String(charArray);
+        System.out.println(message);
+        System.out.println(myString.toUpperCase());
+        System.out.println(myString);
+        char myChar = myString.charAt(6);
+        System.out.println(myChar);
+        System.out.println(myString.length());
+
+//        Loan loan = new Loan(5.0, 30, 100000);
+//        System.out.println(loan.getMonthlyPayment());
+ //       int i = (int) (Math.random() * 10);
 //        System.out.println("Random number " + i);
 //        Scanner input = new Scanner(System.in);
 //        input.nextInt();
