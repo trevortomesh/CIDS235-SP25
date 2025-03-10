@@ -8,14 +8,18 @@ public class Main {
         System.out.println(strArray[1].charAt(0));
 
 
-        char[] charArray = {'G','o','o','d',' ','D','a','y','!'};
-        String message = new String(charArray);
-        System.out.println(message);
-        System.out.println(myString.toUpperCase());
-        System.out.println(myString);
-        char myChar = myString.charAt(6);
-        System.out.println(myChar);
-        System.out.println(myString.length());
+//        char[] charArray = {'G','o','o','d',' ','D','a','y','!'};
+//        String message = new String(charArray);
+//        System.out.println(message);
+//        System.out.println(myString.toUpperCase());
+//        System.out.println(myString);
+//        char myChar = myString.charAt(6);
+//        System.out.println(myChar);
+//        System.out.println(myString.length());
+
+        String s = "Java";
+        s = "Python";
+        System.out.println(s);
 
 //        Loan loan = new Loan(5.0, 30, 100000);
 //        System.out.println(loan.getMonthlyPayment());

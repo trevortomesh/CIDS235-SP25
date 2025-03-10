@@ -30,6 +30,11 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 16: Pass by Value vs. Pass by Reference, Scope, 'this' and overloading](textbook/ch3/lecture16.md)
 - [Lecture 17: Class Abstraction and Encapsulation](textbook/ch3/lecture17.md)
 - [Lecture 18: Class Abstraction and Encapsulation... and Strings!](textbook/ch3/lecture18.md)
+---
+### Chapter 4 - Strings, Arrays and other Objects
+- [Lecture 19: Strings and Arrays](textbook/ch4/lecture19.md)
+
+
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 ### **Upcoming Chapters**
