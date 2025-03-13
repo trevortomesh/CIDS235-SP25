@@ -2,10 +2,37 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        String myString = new String("Hello World!");
+        int a = 5;
+        Integer a1 = Integer.valueOf(a);
+        System.out.println(a1.byteValue());
 
-        String[] strArray = myString.split(" ");
-        System.out.println(strArray[1].charAt(0));
+        //System.out.println(a.length());
+        int[] onedarray = {1,2,3};
+        Circle circly = new Circle(2.0);
+        Circle circleGuy = new Circle(73.23);
+        Cat myCat = new Cat("Glitch");
+        Cat myCat2 = new Cat("Haku");
+        Cat myCat3 = new Cat("Soosoo");
+        Cat myCat4 = new Cat("Genki");
+        Cat[] canadianCats = {myCat, myCat2};
+        Cat[] americanCats = {myCat3, myCat4};
+        Cat[][] trevorsCats = {canadianCats,americanCats};
+
+        Circle[] circleArray = {circly, circleGuy};
+
+        printCircleArray(circleArray);
+
+//        for(int i = 0; i < circleArray.length; i++){
+//            System.out.println("The area of a circle with " +
+//                    "radius " + circleArray[i].getRadius() + " is " +
+//                    circleArray[i].getArea());
+//
+//        }
+
+//        String myString = new String("Hello World!");
+//
+//        String[] strArray = myString.split(" ");
+//        System.out.println(strArray[1].charAt(0));
 
 
 //        char[] charArray = {'G','o','o','d',' ','D','a','y','!'};
@@ -17,9 +44,16 @@ public class Main {
 //        System.out.println(myChar);
 //        System.out.println(myString.length());
 
-        String s = "Java";
-        s = "Python";
-        System.out.println(s);
+//        int[] a = {1,2,3,4};
+//        int[] b = {5,6,7,8};
+//        int[][] twodarray = {a,b};
+//        System.out.println(twodarray[1][1]);
+//
+//        String s = "Java";
+//        System.out.println(s);
+//       // s = new String("Python");
+//        s = "Python";
+//        System.out.println(s);
 
 //        Loan loan = new Loan(5.0, 30, 100000);
 //        System.out.println(loan.getMonthlyPayment());
@@ -204,8 +238,13 @@ public class Main {
         //System.out.println(a);
     }
 
+    public static void printCircleArray(Circle[] circleArray){
+        for(int i = 0; i < circleArray.length; i++){
+            printCircle(circleArray[i]);
+        }
+    }
     public static void printCircle(Circle c){
-        System.out.println("The area of the circle of radius " +
+        System.out.println("The area of the circle " + c +" of radius " +
                 c.getRadius() + " is " + c.getArea());
     }
 

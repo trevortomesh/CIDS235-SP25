@@ -36,7 +36,11 @@ public class Cat {
             weight = newWeight;
         }
 
-        public void meow(){
+    public Cat(String cat) {
+        this.name = cat;
+    }
+
+    public void meow(){
             System.out.println(name + " says meow!");
         }
     }

@@ -33,6 +33,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 ---
 ### Chapter 4 - Strings, Arrays and other Objects
 - [Lecture 19: Strings and Arrays](textbook/ch4/lecture19.md)
+- [Lecture 20: Object Arrays](textbook/ch4/lecture20.md)
 
 
 ## Appendix
