@@ -1,26 +1,42 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        int a = 5;
-        Integer a1 = Integer.valueOf(a);
-        System.out.println(a1.byteValue());
+        ArrayList<String> cityList= new ArrayList<>();
+        cityList.add("Stillwater");
+        cityList.add("Waunakee");
+        cityList.add("Cameron");
+        cityList.add("Somerset");
+        cityList.add("Hudson");
+        System.out.println(cityList);
+        System.out.println(cityList.size());
+        System.out.println(cityList.contains("Hudson"));
+        System.out.println(cityList.indexOf("Cameron"));
+        System.out.println(cityList.get(2));
+        cityList.remove("Stillwater");
+        System.out.println(cityList);
 
-        //System.out.println(a.length());
-        int[] onedarray = {1,2,3};
-        Circle circly = new Circle(2.0);
-        Circle circleGuy = new Circle(73.23);
-        Cat myCat = new Cat("Glitch");
-        Cat myCat2 = new Cat("Haku");
-        Cat myCat3 = new Cat("Soosoo");
-        Cat myCat4 = new Cat("Genki");
-        Cat[] canadianCats = {myCat, myCat2};
-        Cat[] americanCats = {myCat3, myCat4};
-        Cat[][] trevorsCats = {canadianCats,americanCats};
 
-        Circle[] circleArray = {circly, circleGuy};
-
-        printCircleArray(circleArray);
+//        int a = 5;
+//        Integer a1 = Integer.valueOf(a);
+//        System.out.println(a1.floatValue());
+//
+//        //System.out.println(a.length());
+//        int[] onedarray = {1,2,3};
+//        Circle circly = new Circle(2.0);
+//        Circle circleGuy = new Circle(73.23);
+//        Cat myCat = new Cat("Glitch");
+//        Cat myCat2 = new Cat("Haku");
+//        Cat myCat3 = new Cat("Soosoo");
+//        Cat myCat4 = new Cat("Genki");
+//        Cat[] canadianCats = {myCat, myCat2};
+//        Cat[] americanCats = {myCat3, myCat4};
+//        Cat[][] trevorsCats = {canadianCats,americanCats};
+//
+//        Circle[] circleArray = {circly, circleGuy};
+//
+//        printCircleArray(circleArray);
 
 //        for(int i = 0; i < circleArray.length; i++){
 //            System.out.println("The area of a circle with " +
@@ -77,7 +93,7 @@ public class Main {
 //        Circle c1 = new Circle(5.0);
 //        Circle c2 = new Circle(1);
 //        Circle c3 = new Circle();
-        Circle c4 = new Circle();
+ //       Circle c4 = new Circle();
         //printCircle(c1);
         //System.out.println("c1 radius is now " + c1.getRadius());
 
@@ -217,9 +233,9 @@ public class Main {
 //
 //        //giveMeds(cat1Name, cat1Age, cat1Weight);
 //        //makeSound(dog1Name);
-        addTwo();
-        addTwo(1,2);
-        addTwo(5);
+//        addTwo();
+//        addTwo(1,2);
+//        addTwo(5);
 
     }
 
