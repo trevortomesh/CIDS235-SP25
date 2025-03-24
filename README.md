@@ -39,6 +39,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
+- [Lecture 22: # Midterm Review: Object-Oriented Programming Fundamentals](textbook/Appendix/lecture22.md)
 ### **Upcoming Chapters**
 - _More chapters and lectures will be added as the course progresses._
 
