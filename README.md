@@ -35,7 +35,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 19: Strings and Arrays](textbook/ch4/lecture19.md)
 - [Lecture 20: Object Arrays](textbook/ch4/lecture20.md)
 - [Lecture 21: Arrays, Wrapper Classes, and Introducing ArrayLists](textbook/ch4/lecture21.md)
-
+- [Lecture 23: Custom Data Structures Using ArrayLists](textbook/ch4/lecture23)
 
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)

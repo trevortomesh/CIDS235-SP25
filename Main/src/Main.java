@@ -3,19 +3,35 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<String> cityList= new ArrayList<>();
-        cityList.add("Stillwater");
-        cityList.add("Waunakee");
-        cityList.add("Cameron");
-        cityList.add("Somerset");
-        cityList.add("Hudson");
-        System.out.println(cityList);
-        System.out.println(cityList.size());
-        System.out.println(cityList.contains("Hudson"));
-        System.out.println(cityList.indexOf("Cameron"));
-        System.out.println(cityList.get(2));
-        cityList.remove("Stillwater");
-        System.out.println(cityList);
+
+        Circle circlguy = new Circle();
+        Cat catGuy = new Cat();
+        Loan loanGuy = new Loan();
+        MyStack stackguy = new MyStack();
+
+        System.out.println(stackguy.isEmpty());
+        System.out.println("size before pushing: " + stackguy.getSize());
+        stackguy.push(loanGuy);
+        stackguy.push(circlguy);
+        stackguy.push(catGuy);
+
+        System.out.println("size after pushing: " + stackguy.getSize());
+        System.out.println(stackguy.peek());
+        stackguy.pop();
+        System.out.println(stackguy.peek());
+//        ArrayList<String> cityList= new ArrayList<>();
+//        cityList.add("Stillwater");
+//        cityList.add("Waunakee");
+//        cityList.add("Cameron");
+//        cityList.add("Somerset");
+//        cityList.add("Hudson");
+//        System.out.println(cityList);
+//        System.out.println(cityList.size());
+//        System.out.println(cityList.contains("Hudson"));
+//        System.out.println(cityList.indexOf("Cameron"));
+//        System.out.println(cityList.get(2));
+//        cityList.remove("Stillwater");
+//        System.out.println(cityList);
 
 
 //        int a = 5;
