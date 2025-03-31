@@ -19,6 +19,7 @@ public class Main {
         System.out.println(stackguy.peek());
         stackguy.pop();
         System.out.println(stackguy.peek());
+        System.out.println(catGuy.toString());
 //        ArrayList<String> cityList= new ArrayList<>();
 //        cityList.add("Stillwater");
 //        cityList.add("Waunakee");

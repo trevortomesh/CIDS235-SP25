@@ -10,7 +10,7 @@
  * objects created.
  */
 
-public class Circle {
+public class Circle extends GeometricObject {
     /**
      * The number of Circle objects created.
      */
