@@ -39,7 +39,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 
 ### Chapter 5 - Inheritence and Polymorphism
 - [Lecture 24: Inheritance, Polymorphism, and the Object Class](textbook/ch5/lecture24.md)
-
+- [Lecture 25: Inheritance and the Object Class](textbook/ch5/lecture25.md)
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 - [Lecture 22: # Midterm Review: Object-Oriented Programming Fundamentals](textbook/Appendix/lecture22.md)

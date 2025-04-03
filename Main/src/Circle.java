@@ -26,7 +26,7 @@ public class Circle extends GeometricObject {
      * and increments the number of Circle objects.
      */
     public Circle() {
-        this(1.0);
+        this.radius = 1.0;
     }
 
     /**
@@ -35,8 +35,10 @@ public class Circle extends GeometricObject {
      *
      * @param newRadius the desired radius of the circle
      */
-    public Circle(double radius) {
+    public Circle(double radius, String color, boolean filled) {
         this.radius = radius;
+        setColor(color);
+        setFilled(filled);
         numberOfObjects++;
     }
 

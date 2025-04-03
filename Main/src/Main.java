@@ -4,22 +4,24 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Circle circlguy = new Circle();
+        Circle circlguy = new Circle(3.0, "green", true);
         Cat catGuy = new Cat();
         Loan loanGuy = new Loan();
         MyStack stackguy = new MyStack();
 
-        System.out.println(stackguy.isEmpty());
-        System.out.println("size before pushing: " + stackguy.getSize());
-        stackguy.push(loanGuy);
-        stackguy.push(circlguy);
-        stackguy.push(catGuy);
+//        System.out.println(stackguy.isEmpty());
+//        System.out.println("size before pushing: " + stackguy.getSize());
+//        stackguy.push(loanGuy);
+//        stackguy.push(circlguy);
+//        stackguy.push(catGuy);
 
-        System.out.println("size after pushing: " + stackguy.getSize());
-        System.out.println(stackguy.peek());
-        stackguy.pop();
-        System.out.println(stackguy.peek());
+//        System.out.println("size after pushing: " + stackguy.getSize());
+//        System.out.println(stackguy.peek());
+//        stackguy.pop();
+//        System.out.println(stackguy.peek());
+//        System.out.println(catGuy);
         System.out.println(catGuy.toString());
+        System.out.println(circlguy.toString());
 //        ArrayList<String> cityList= new ArrayList<>();
 //        cityList.add("Stillwater");
 //        cityList.add("Waunakee");
