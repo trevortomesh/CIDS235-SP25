@@ -8,7 +8,10 @@ public class Main {
         Cat catGuy = new Cat();
         Loan loanGuy = new Loan();
         MyStack stackguy = new MyStack();
-
+        Rectangle rectangleGuy = new Rectangle(10, 10);
+        System.out.println(rectangleGuy.getDateCreated());
+        System.out.println("The width of rectangleguy is " + rectangleGuy.getWidth());
+        System.out.println(rectangleGuy);
 //        System.out.println(stackguy.isEmpty());
 //        System.out.println("size before pushing: " + stackguy.getSize());
 //        stackguy.push(loanGuy);
@@ -20,8 +23,8 @@ public class Main {
 //        stackguy.pop();
 //        System.out.println(stackguy.peek());
 //        System.out.println(catGuy);
-        System.out.println(catGuy.toString());
-        System.out.println(circlguy.toString());
+        System.out.println(catGuy);
+        System.out.println(circlguy);
 //        ArrayList<String> cityList= new ArrayList<>();
 //        cityList.add("Stillwater");
 //        cityList.add("Waunakee");

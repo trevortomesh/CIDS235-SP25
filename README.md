@@ -37,9 +37,10 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 21: Arrays, Wrapper Classes, and Introducing ArrayLists](textbook/ch4/lecture21.md)
 - [Lecture 23: Custom Data Structures Using ArrayLists](textbook/ch4/lecture23)
 
-### Chapter 5 - Inheritence and Polymorphism
+### Chapter 5 - Inheritance and Polymorphism
 - [Lecture 24: Inheritance, Polymorphism, and the Object Class](textbook/ch5/lecture24.md)
 - [Lecture 25: Inheritance and the Object Class](textbook/ch5/lecture25.md)
+- [Lecture 26: Inheritance, Polymorphism, and Constructor Chaining in Java](textbook/ch5/lecture26.md)
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 - [Lecture 22: # Midterm Review: Object-Oriented Programming Fundamentals](textbook/Appendix/lecture22.md)
