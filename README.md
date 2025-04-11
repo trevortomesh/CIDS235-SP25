@@ -43,6 +43,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 26: Inheritance, Polymorphism, and Constructor Chaining in Java](textbook/ch5/lecture26.md)
 - [Lecture 27: Constructor Chaining and Inheritance](textbook/ch5/lecture27.md)
 - [Lecture 28: Polymorphism Cont'd](textbook/ch5/lecture28.md)
+- [Lecture 29: Polymorphism and Type Casting](textbook/ch5/lecture29.md)
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 - [Lecture 22: # Midterm Review: Object-Oriented Programming Fundamentals](textbook/Appendix/lecture22.md)
