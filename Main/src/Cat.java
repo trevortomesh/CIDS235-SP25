@@ -1,43 +1,19 @@
-public class Cat {
-
-
+public class Cat extends Mammal{
     String name;
-    int age;
-    char sex;
-    String color;
     String breed;
-    double weight;
 
     Cat(){
-        name = "Garfield";
-        age = 10;
-        sex = 'M';
-        color = "orange";
-        breed = "DSH";
-        weight = 24;
     }
 
-//        Cat(){
-//            name = "Garfield";
-//            age = 10;
-//            sex = 'M';
-//            color = "orange";
-//            breed = "DSH";
-//            weight = 24;
-//        }
-
-        Cat(String newName, int newAge, char newSex,
-            String newColor, String newBreed, double newWeight){
-            name = newName;
-            age = newAge;
-            sex = newSex;
-            color = newColor;
-            breed = newBreed;
-            weight = newWeight;
+        Cat(String name, int age, char sex,
+            String color, String breed, double weight){
+            super(name, age, sex, color, weight);
+           this.breed = breed;
         }
 
-    public Cat(String cat) {
-        this.name = cat;
+    public Cat(String name) {
+        super(name, 5, 'M', "Black",12);
+
     }
 
     public void meow(){
