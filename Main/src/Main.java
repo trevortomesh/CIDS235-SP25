@@ -3,12 +3,33 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        Circle object1 = new Circle(1, "Blue", true);
-        Object object2 = new Rectangle(1,1);
-        //Circle circle1 = new Object();
+        int age = 45;
+        byte newAge = (byte) age; // a new value is assigned
+        System.out.println(newAge);
 
-        displayObject(object1);
-        displayObject(object2);
+ //       Object r = new Rectangle();
+        Object o = new Circle();
+        //System.out.println(o);
+        Circle c = (Circle) o;
+        //System.out.println(c);
+
+        System.out.println(c.equals(o));
+/*
+        public boolean equals(Object obj){
+            return this == obj;
+        }
+ */
+
+//        Circle c2 = (Circle) r;
+
+//        Circle object1 = new Circle(1, "Blue", true);
+//        Object object2 = new Rectangle(1,1);
+//        //Circle circle1 = new Object();
+//        Cat cat1 = new Cat();
+//
+//        displayObject(object1);
+//        displayObject(object2);
+//        displayObject(cat1);
 
 //        Faculty faculty = new Faculty();
 //        System.out.println("(5) Do main stuff");
@@ -49,7 +70,7 @@ public class Main {
                             " Mammal sex: " + M.sex +
                             " Mammal age: " + M.age +
                             " Mammal color: " + M.color);
-//        M.meow();
+//       M.meow();
 //        System.out.println(M.breed);
 
     }
