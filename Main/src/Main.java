@@ -3,17 +3,25 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        int age = 45;
-        byte newAge = (byte) age; // a new value is assigned
-        System.out.println(newAge);
 
- //       Object r = new Rectangle();
-        Object o = new Circle();
-        //System.out.println(o);
-        Circle c = (Circle) o;
-        //System.out.println(c);
+        Faculty trevor = new Faculty();
+        Course cids325 = new Course();
+        cids325.setFaculty(trevor);
+        System.out.println(cids325.getFaculty().toString());
 
-        System.out.println(c.equals(o));
+
+
+//        int age = 45;
+//        byte newAge = (byte) age; // a new value is assigned
+//        System.out.println(newAge);
+//
+// //       Object r = new Rectangle();
+//        Object o = new Circle();
+//        //System.out.println(o);
+//        Circle c = (Circle) o;
+//        //System.out.println(c);
+//
+//        System.out.println(c.equals(o));
 /*
         public boolean equals(Object obj){
             return this == obj;

@@ -45,6 +45,10 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 28: Polymorphism Cont'd](textbook/ch5/lecture28.md)
 - [Lecture 29: Polymorphism and Type Casting](textbook/ch5/lecture29.md)
 - [Lecture 30: Polymorphism and Casting](textbook/ch5/lecture30.md)
+
+## Chapter 5 - Class Relationships
+- [Lecture 31: Understanding Class Relationships in Java](textbook/ch6/lecture31.md)
+
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 - [Lecture 22: # Midterm Review: Object-Oriented Programming Fundamentals](textbook/Appendix/lecture22.md)
