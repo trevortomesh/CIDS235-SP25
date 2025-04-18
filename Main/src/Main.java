@@ -3,11 +3,21 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
+        Trainer trainer = new Trainer("BLUE");
+        trainer.setName("Slugzzz");
+        System.out.println("A wild Pokemon appeared!");
+        Pokemon newPokemon = new Pokemon("Pidgey", "Pidgey");
+        trainer.addPokemon(newPokemon);
+        System.out.println(newPokemon.getName() + " was caught!");
+        trainer.printTeam();
 
-        Faculty trevor = new Faculty();
-        Course cids325 = new Course();
-        cids325.setFaculty(trevor);
-        System.out.println(cids325.getFaculty().toString());
+        Pokemon pokemon2 = new Pokemon("Mew", "Mew");
+
+
+//        Faculty trevor = new Faculty();
+//        Course cids325 = new Course();
+//        cids325.setFaculty(trevor);
+//        System.out.println(cids325.getFaculty().toString());
 
 
 
