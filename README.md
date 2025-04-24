@@ -49,7 +49,9 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 ## Chapter 5 - Class Relationships
 - [Lecture 31: Understanding Class Relationships in Java](textbook/ch6/lecture31.md)
 - [Lecture 32: Exploring Object Relationships: Association, Aggregation, Composition](textbook/ch6/lecture32.md)
-- [Lecture 33: Class Relationships Cont'd](/textbook/ch6/lecture33.md)
+- [Lecture 33: Class Relationships Cont'd](textbook/ch6/lecture33.md)
+- [Lecture 34: Abstract Classes, Relationships, and Method Design in Java](textbook/ch6/lecture34.md)
+
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)
 - [Lecture 22: # Midterm Review: Object-Oriented Programming Fundamentals](textbook/Appendix/lecture22.md)

@@ -3,15 +3,25 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        Trainer trainer = new Trainer("BLUE");
-        trainer.setName("Slugzzz");
-        System.out.println("A wild Pokemon appeared!");
-        Pokemon newPokemon = new Pokemon("Pidgey", "Pidgey");
-        trainer.addPokemon(newPokemon);
-        System.out.println(newPokemon.getName() + " was caught!");
-        trainer.printTeam();
+        GeometricObject geoObject1 = new Circle(5, "blue", false);
+        GeometricObject geoObject2 = new Rectangle(5, 3, "red",true);
+        GeometricObject geoObject3 = new Circle(5, "red", true);
+        System.out.println("Do the objects have the same area?" +
+                equalArea(geoObject1, geoObject3));
 
-        Pokemon pokemon2 = new Pokemon("Mew", "Mew");
+        GeometricObject[] objects = new GeometricObject[10];
+        objects[0] = new Circle();
+        //GeometricObject geodude = new GeometricObject();
+
+//        Trainer trainer = new Trainer("BLUE");
+//        trainer.setName("Slugzzz");
+//        System.out.println("A wild Pokemon appeared!");
+//        Pokemon newPokemon = new Pokemon("Pidgey", "Pidgey");
+//        trainer.addPokemon(newPokemon);
+//        System.out.println(newPokemon.getName() + " was caught!");
+//        trainer.printTeam();
+//
+//        Pokemon pokemon2 = new Pokemon("Mew", "Mew");
 
 
 //        Faculty trevor = new Faculty();
@@ -58,6 +68,10 @@ public class Main {
 //                "Grey", 50000);
 //        printMammal(myWhale);
 //        printMammal(myCat);
+    }
+
+    public static boolean equalArea(GeometricObject object1, GeometricObject object2){
+        return object1.getArea() == object2.getArea();
     }
 
     public static void displayObject(Object object) {

@@ -1,5 +1,5 @@
 
-public class GeometricObject {
+public abstract class GeometricObject {
     private String color = "white";
     private boolean filled;
     private java.util.Date dateCreated;
@@ -30,6 +30,7 @@ public class GeometricObject {
         this.filled = filled;
     }
 
+
     public java.util.Date getDateCreated(){
         return dateCreated;
     }
@@ -38,4 +39,9 @@ public class GeometricObject {
         return "created on " + dateCreated + "\ncolor: " + color +
                 " and filled: " + filled;
     }
+
+    public abstract double getArea();
+
+    public abstract double getPerimeter();
+
 }

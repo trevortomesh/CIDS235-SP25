@@ -33,7 +33,7 @@ public class Circle extends GeometricObject {
      * Constructor that creates a Circle with the specified radius
      * and increments the number of Circle objects.
      *
-     * @param newRadius the desired radius of the circle
+     * @param radius the desired radius of the circle
      */
     public Circle(double radius, String color, boolean filled) {
         super(color,filled);
