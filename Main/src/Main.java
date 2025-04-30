@@ -1,9 +1,50 @@
+import java.sql.Array;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.math.*;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 public class Main {
     public static void main(String[] args) {
 
-        GeometricObject geoObject1 = new Circle(5, "blue", false);
+
+    Tiger tony = new Tiger();
+    Chicken jockey = new Chicken();
+    Apple apple = new Apple();
+
+    Object[] objects = {tony, jockey, apple};
+    for(int i = 0; i < objects.length; i++){
+        if(objects[i] instanceof Edible){
+            System.out.println(((Edible)objects[i]).howToEat());
+        }
+
+        if(objects[i] instanceof Animal){
+            System.out.println(((Animal)objects[i]).sound());
+        }
+    }
+
+
+//        GregorianCalendar today = new GregorianCalendar();
+//        System.out.println("Today's Date: ");
+//        System.out.println("Year: " + today.get(Calendar.YEAR));
+//        System.out.println("Month: " + (today.get(Calendar.MONTH) + 1));
+//        System.out.println("Day: " + today.get(Calendar.DAY_OF_MONTH));
+
+
+
+//      ArrayList<Number> list = new ArrayList<>();
+//      list.add(45);
+//      list.add(3445.53);
+//
+//      list.add(new BigInteger("3432323234344343101"));
+//      list.add(new BigDecimal("2.0909090989091343344343"));
+//
+//      System.out.println("The largest number is " +
+//              getLargestNumber(list));
+
+
+
+/*        GeometricObject geoObject1 = new Circle(5, "blue", false);
         GeometricObject geoObject2 = new Rectangle(5, 3, "red",true);
         GeometricObject geoObject3 = new Circle(5, "red", true);
         System.out.println("Do the objects have the same area?" +
@@ -11,6 +52,7 @@ public class Main {
 
         GeometricObject[] objects = new GeometricObject[10];
         objects[0] = new Circle();
+*/
         //GeometricObject geodude = new GeometricObject();
 
 //        Trainer trainer = new Trainer("BLUE");
@@ -69,6 +111,21 @@ public class Main {
 //        printMammal(myWhale);
 //        printMammal(myCat);
     }
+
+    public static Number getLargestNumber(ArrayList<Number> list){
+        if(list == null || list.size() == 0){
+            return null;
+        }
+        Number number = list.get(0);
+        for(int i = 1; i < list.size(); i++){
+            if(number.doubleValue() < list.get(i).doubleValue()){
+                number = list.get(i);
+            }
+
+        }
+        return number;
+    }
+
 
     public static boolean equalArea(GeometricObject object1, GeometricObject object2){
         return object1.getArea() == object2.getArea();
