@@ -52,6 +52,7 @@ Welcome to the **CIDS 235** repository! This resource is designed to complement 
 - [Lecture 33: Class Relationships Cont'd](textbook/ch6/lecture33.md)
 - [Lecture 34: Abstract Classes, Relationships, and Method Design in Java](textbook/ch6/lecture34.md)
 - [Lecture 35: Interfaces and Pseudo-Multiple Inheritance](textbook/ch6/lecture35.md)
+- [Lecture36: Abstract Classes, Interfaces, and Super Types](textbook/ch6/lecture36.md)
 
 ## Appendix
 - [Lecture 7: Object-Oriented Battle Creatures & Program Write-Up Document (PWUD)](textbook/Appendix/lecture7.md)

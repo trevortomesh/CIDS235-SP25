@@ -13,15 +13,15 @@ public class Main {
     Apple apple = new Apple();
 
     Object[] objects = {tony, jockey, apple};
-    for(int i = 0; i < objects.length; i++){
-        if(objects[i] instanceof Edible){
-            System.out.println(((Edible)objects[i]).howToEat());
-        }
+        for (Object object : objects) {
+            if (object instanceof Edible) {
+                System.out.println(((Edible) object).howToEat());
+            }
 
-        if(objects[i] instanceof Animal){
-            System.out.println(((Animal)objects[i]).sound());
+            if (object instanceof Animal) {
+                System.out.println(((Animal) object).sound());
+            }
         }
-    }
 
 
 //        GregorianCalendar today = new GregorianCalendar();
